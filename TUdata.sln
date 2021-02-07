@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TUdata", "TUdata.csproj", "{2191FC76-F508-4066-8529-035D0665A446}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2191FC76-F508-4066-8529-035D0665A446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2191FC76-F508-4066-8529-035D0665A446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2191FC76-F508-4066-8529-035D0665A446}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2191FC76-F508-4066-8529-035D0665A446}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C098D36-92AB-461B-8A4E-C63F64A7F5C4}
+	EndGlobalSection
+EndGlobal
