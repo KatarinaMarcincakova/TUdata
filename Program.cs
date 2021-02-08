@@ -68,14 +68,19 @@ namespace TUdata
             excelWorkbook.Close();
             excelApp.Quit();
         }
-        public static void PrintDataFromExcel()
+        public static void PrintDataFromExcel(int numOfPeople)
         {
-            
+            Console.WriteLine("NAME AGE HEIGHT WEIGHT");
+            for (int i = 0; i < numOfPeople; i++)
+            {
+                Console.WriteLine($"{People[i].Name} - {People[i].Age.ToString()} {People[i].Height.ToString()} {People[i].Weight.ToString()}");
+            }
         }
 
         static void Main(string[] args)
         {
             GetDataFromExcel(29, 14);
+            PrintDataFromExcel(28);
         }
     }
 }
